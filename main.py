@@ -27,7 +27,7 @@ parser.add_argument("--disable-js", dest="js", action="store_false",
 parser.add_argument("--outdir", type=str,    
                     help="output directory where screenshots will saved")    
 parser.add_argument("--delayreq", type=float,    
-                    help="wait time in seconds between requests")    
+                    help="wait time in seconds between requests (Default 0.5s)")    
 parser.add_argument("--webdriver-local", dest="webdrivertype", action="store_true",    
                     help="use local geckodriver binary (Default)")    
 parser.add_argument("--webdriver-manager", dest="webdrivertype", action="store_false",    

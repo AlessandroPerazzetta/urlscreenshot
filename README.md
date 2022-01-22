@@ -1,6 +1,9 @@
 # Take screenshot from url
 
 ## Installation:
+
+Download and decompress Geckodriver from: https://github.com/mozilla/geckodriver/releases/latest
+
 `python3 -m venv venv`
 
 `source venv/bin/activate`

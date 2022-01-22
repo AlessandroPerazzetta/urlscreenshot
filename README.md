@@ -38,11 +38,16 @@ optional arguments:
 ```
 ## Examples:
 
-Take screenshot of a single url
+Take screenshot of a single url:
+
 `python3 main.py --url 'http://192.168.1.200/'`
 
-Take screenshot of multiple urls
+
+Take screenshot of multiple urls:
+
 `python3 main.py --urls 'http://192.168.1.200/' 'http://192.168.1.1' --outdir '/tmp/ale/'`
 
-Take screenshot of url in net.txt file
+
+Take screenshot of url in net.txt file:
+
 `python3 main.py --url-file net.txt --outdir '/tmp/ale/'`

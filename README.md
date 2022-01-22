@@ -32,8 +32,8 @@ optional arguments:
   --enable-js           enable js
   --disable-js          disable js
   --outdir OUTDIR       output directory where screenshots will saved
-  --delayreq DELAYREQ   wait time in seconds between requests
-  --webdriver-local     use local geckodriver binary
+  --delayreq DELAYREQ   wait time in seconds between requests (Default 0.5s)
+  --webdriver-local     use local geckodriver binary (Default)
   --webdriver-manager   use driver manager
 ```
 ## Examples:

@@ -38,9 +38,8 @@ parser.set_defaults(outdir='OUT')
 parser.set_defaults(delayreq=0.5)    
 parser.set_defaults(webdrivertype=True)    
     
-args = parser.parse_args()    
-print(args)    
-    
+args = parser.parse_args()
+
 def show_message(message, status=None):    
     CRED = '\033[31m'    
     CLRED = '\033[91m'    

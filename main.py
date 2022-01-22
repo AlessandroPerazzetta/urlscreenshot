@@ -15,7 +15,7 @@ parser.add_argument("--url", type=str,
 parser.add_argument("--urls", nargs="+",    
                     help="URLS list to screenshot")    
 parser.add_argument("--url-file", type=str,    
-                    help=textwrap.dedent('''\    
+                    help=textwrap.dedent('''
                         URL or URLS list file to screenshot    
                         example generate list ip with nmap:    
                         \tnmap -sL -n 192.168.1.0/24 | awk '/Nmap scan report/{print "http://"$NF"/"}'    
